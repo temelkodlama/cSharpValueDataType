@@ -1,0 +1,49 @@
+            byte myByte1 = 0;
+            byte myByte2 = 255;
+            sbyte mySbyte1 = -128;
+            sbyte mySbyte2 = 127;
+            int myInt1 = -2147483648;
+            int myInt2 = 2147483647;
+            uint myUint1 = 0;
+            uint myUint2 = 4294967295;
+            short myShort1 = -32768;
+            short myShort2 = 32767;
+            ushort myUshort1 = 0;
+            ushort myUshort2 = 65535;
+            long myLong1 = -32574698;
+            long myLong2 = -32574698;
+            ulong myUlong1 = 0;
+            ulong myUlong2 = 125489652102;
+
+            Console.WriteLine("------ Tam Sayılar ------");
+            Console.WriteLine("Byte:" + myByte1 + " - " + myByte2);
+            Console.WriteLine("sByte:" + mySbyte1 + " - " + mySbyte2);
+            Console.WriteLine("int:" + myInt1 + " - " + myInt2);
+            Console.WriteLine("uint:" + myUint1 + " - " + myUint2);
+            Console.WriteLine("short:" + myShort1 + " - " + myShort2);
+            Console.WriteLine("ushort:" + myUshort1 + " - " + myUshort2);
+            Console.WriteLine("long:" + myLong1 + " - " + myLong2);
+            Console.WriteLine("ulong:" + myUlong1 + " - " + myUlong2);
+
+            Console.WriteLine("\n\n------ Ondalıklı Sayılar ------");
+            float myFloat1 = -3.48546645f;
+            float myFloat2 = 9.48546645f;
+            double myDouble1 = -4.155545463135135;
+            double myDouble2 = 86.25435455453135435;
+            decimal myDecimal1 = -7.13535434353513513535315M;
+            decimal myDecimal2 = 85.313513513513513358779M;
+
+            Console.WriteLine("Float: " + myFloat1 + " - " + myFloat2);
+            Console.WriteLine("Double: " + myDouble1 + " - " + myDouble2);
+            Console.WriteLine("Decimal" + myDecimal1 + " - " + myDecimal2);
+
+            Console.WriteLine("\n\n------ Diğer Değer Veri Tipleri ------");
+            bool myBool1 = false;
+            bool myBool2 = true;
+            char mychar = 'X';
+
+            Console.WriteLine("Boolean: " + myBool1 + " - " + myBool2);
+            Console.WriteLine("Char: " + mychar);
+
+
+            Console.ReadKey(); 
